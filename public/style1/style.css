@@ -1,0 +1,137 @@
+.content{
+width: 80%;
+margin: auto;
+margin-top: 5%;
+}
+header div{
+    display: flex;
+    background-color: grey;
+}
+hgroup{
+padding-left: 10%;
+color: red;
+}
+.content{
+    display: grid;
+grid-template-columns: 1fr 1fr;
+}
+h3{
+    border-bottom: 1px solid black;
+}
+h3::before{
+    content:' ' ;
+    height: 20px;
+    width: 20px;
+    background-color: red;
+    border-radius: 50%;
+    margin-right: 5px;
+    display: inline-flex;
+}
+.experience-type{
+    color: red;
+}
+.experience-institution{
+    color: red;
+}
+.experience-date-separator{
+    color:red
+}
+.experience-date{
+    opacity: 0.5;
+}
+.experience-location{
+    opacity: 0.5;
+}
+.contacts{
+    position: absolute;
+    top: 1%;
+    width: 40%;
+}
+.contact{
+    display: flex;
+    background-color: black;
+    margin: 0;
+    height: 25px;
+}
+
+a ,dd, .contact-value{
+    color: red;
+
+    text-decoration: none;
+}
+.contact-type{
+    background-color: red;
+    width: 135px;
+    color: white
+    ;
+}
+#contact h3{
+    display: none;
+}
+.skill{
+    background-color: rgb(202, 202, 202);
+    padding: 10px;
+    margin-bottom: 4px;
+    line-height: 2;
+    
+}
+.skills.skills-primary::before{
+    content: "Main";
+    font-size: 20px;
+    display: inline-block;
+    margin-left: 0;
+}
+
+.skill span{
+    margin-left: -8px;
+}
+.skills.skills-secondary::before{
+    content: "Other";
+    font-size: 20px;
+    display: inline-block;
+    margin: 0;
+
+}
+.skills-secondary>.skill[data-skill="5"] span{
+    background-color: red;
+    width: 50%;
+    display: inline-block;
+    opacity: 0.7;
+}
+.skill[data-skill="5"] span{
+    background-color: red;
+    width: 50%;
+    display: inline-block;
+}
+
+.skill[data-skill="3"] span{
+    background-color: red;
+    width: 30%;
+    display: inline-block;
+}
+
+
+.skill[data-skill="1"] span{
+    background-color: red;
+    width: 15%;
+    display: inline-block;
+    
+}
+
+.skill[data-skill="9"] span{
+    background-color: red;
+    width: 90%;
+    display: inline-block;
+    opacity: 0.7;
+}
+
+
+.skill[data-skill="7"] span{
+    background-color: red;
+    width: 70%;
+    display: inline-block;
+    opacity: 0.7;
+}
+#competencies span{
+    color: white;
+}
