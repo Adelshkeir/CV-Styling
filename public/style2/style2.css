@@ -44,7 +44,7 @@ figure img{
          gap: 10px;
          margin-left: 10px;
          color: white;
-        width: 50%;
+    
     
     }
     .skill{
@@ -192,4 +192,9 @@ figure img{
     
 
     
+    }
+    @media all and (min-width:1024px){
+        .skills{
+            width: 50%;
+        }
     }
