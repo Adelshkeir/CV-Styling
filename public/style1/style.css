@@ -135,7 +135,7 @@ a ,dd, .contact-value{
 #competencies span{
     color: white;
 }
-@media all and (max-width:1099px){
+@media all and (max-width:1024px){
     
     header{
         background-color: gray;

@@ -177,7 +177,7 @@ figure img{
     }
     }
     
-    @media all and (max-width:1099px){
+    @media all and (max-width:1024px){
     figure img {
         display: none;
     }
