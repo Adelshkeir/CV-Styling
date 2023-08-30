@@ -161,5 +161,7 @@ a ,dd, .contact-value{
     padding: 3px;
     margin: 0;
 }
-
+.contacts{
+    position: static;
+}
 }
